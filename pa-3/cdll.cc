@@ -13,7 +13,8 @@ CDLLNode::~CDLLNode() {
 }
 
 CDLL::CDLL() {
-    // TODO: Initialize private data members
+    head = NULL;
+    current = NULL;
 }
 
 CDLL::~CDLL() {
@@ -33,6 +34,10 @@ void CDLL::go_next() {
 }
 
 void CDLL::go_prev() {
+    // TODO
+}
+
+void CDLL::go_first() {
     // TODO
 }
 
